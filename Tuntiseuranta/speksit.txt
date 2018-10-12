@@ -1,11 +1,12 @@
 ﻿Käyttäjä
-•id
+•id (primary key, juokseva)
 •nimi(etunimi,sukunimi)
 •osasto
 •tehtävänimike
 
 Tunnit
-•käyttäjä_id
+•tehtävänro (primary key, juokseva)
+•käyttäjä_id (foreign key)
 •päivämäärä
 •tunnit
 •tehtäväkuvaus/aihe/syy
