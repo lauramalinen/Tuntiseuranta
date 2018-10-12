@@ -23,6 +23,8 @@ namespace Tuntiseuranta
                 SqlCommand cmd2 = c.CreateCommand();
                 cmd2.CommandText = $"create table Tunnit (tehtavanro int, kayttaja_id int, pvm date, tunnit decimal(4,2), tehtavakuvaus varchar(255), laskutettava int);";
                 cmd2.ExecuteNonQuery();
+
+                //Kommentti
             }
         }
     }
