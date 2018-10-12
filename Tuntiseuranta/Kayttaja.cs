@@ -25,7 +25,7 @@ namespace Tuntiseuranta
                 c.ConnectionString = "server=localhost;database=Tuntiseuranta;trusted_connection=true";
                 c.Open();
                 SqlCommand k1 = c.CreateCommand();
-                k1.CommandText = $"insert into Kayttaja values({nimi}, {osasto}, {tehtavanimike}";
+                k1.CommandText = $"insert into Kayttaja values('{nimi}', '{osasto}', '{tehtavanimike}')";
 
                 k1.ExecuteNonQuery();
 

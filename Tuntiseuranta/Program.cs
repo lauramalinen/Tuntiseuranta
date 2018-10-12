@@ -20,10 +20,10 @@ namespace Tuntiseuranta
             vastaus = vastaus.ToUpper();
             switch (vastaus)
             {
-                //case "A":
-                //    Kayttaja kayttaja = new Kayttaja();
-                //    kayttaja.LisaaKayttaja();
-                //    break;
+                case "A":
+                    Kayttaja kayttaja = new Kayttaja();
+                    kayttaja.LisaaKayttaja();
+                    break;
 
                 //case "B":
                 //    Tehtava tehtava = new Tehtava();
