@@ -13,17 +13,20 @@ namespace Tuntiseuranta
         {
             Console.WriteLine("Tervetuloa!\nMitä haluat tehdä?");
             string vastaus = Console.ReadLine();
-            vastaus.ToUpper();
+            vastaus = vastaus.ToUpper();
             switch (vastaus)
             {
                 //case "A":
                 //    Kayttaja kayttaja = new Kayttaja();
                 //    kayttaja.LisaaKayttaja();
                 //    break;
-                //case "TAULUKOT":
-                //    Taulukot taulukot = new Taulukot();
-                //    taulukot.PaivitaTaulukot();
-                //    break;
+                case "TAULUKOT":
+                    Taulukot taulukot = new Taulukot();
+                    taulukot.PaivitaTaulukot();
+                    break;
+                default:
+                    Console.WriteLine("Epäkelpo valinta!");
+                    break;
             }
 
             //using (SqlConnection c = new SqlConnection())

@@ -8,5 +8,9 @@ namespace Tuntiseuranta
 {
     class Taulukot
     {
+        public void PaivitaTaulukot()
+        {
+            Console.WriteLine("OK");
+        }
     }
 }
