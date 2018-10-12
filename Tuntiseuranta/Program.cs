@@ -31,7 +31,7 @@ namespace Tuntiseuranta
                 //    break;
 
                 //case "C":
-                //    Katsele katsele = new Katsele;
+                //    Katsele katsele = new Katsele();
                 //    katsele.TarkasteleTunteja();
                 //    break;
 

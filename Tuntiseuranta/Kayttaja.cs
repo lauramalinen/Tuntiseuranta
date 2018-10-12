@@ -20,8 +20,6 @@ namespace Tuntiseuranta
             Console.WriteLine("Lisää tehtävänimike: ");
             string tehtavanimike = Console.ReadLine();
 
-
-
             using (SqlConnection c = new SqlConnection())
             {
                 c.ConnectionString = "server=localhost;database=Tuntiseuranta;trusted_connection=true";
