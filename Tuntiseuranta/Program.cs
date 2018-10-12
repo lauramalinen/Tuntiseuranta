@@ -25,10 +25,10 @@ namespace Tuntiseuranta
                     kayttaja.LisaaKayttaja();
                     break;
 
-                //case "B":
-                //    Tehtava tehtava = new Tehtava();
-                //    tehtava.LisaaTehtava();
-                //    break;
+                case "B":
+                    Tehtava tehtava = new Tehtava();
+                    tehtava.LisaaTehtava();
+                    break;
 
                 //case "C":
                 //    Katsele katsele = new Katsele();
