@@ -11,12 +11,11 @@ namespace Tuntiseuranta
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Tervetuloa!\nMitä haluat tehdä?");
+            Console.ReadLine();
 
             using (SqlConnection c = new SqlConnection())
             {
-                Console.WriteLine("Tervetuloa!\nMitä haluat tehdä?");
-                Console.ReadLine();
-
                 //c.ConnectionString = "server=localhost;database=Tuntiseuranta;trusted_connection=true";
                 //c.Open();
                 //SqlCommand cmd = c.CreateCommand();
