@@ -1,0 +1,12 @@
+﻿Käyttäjä
+•id
+•nimi(etunimi,sukunimi)
+•osasto
+•tehtävänimike
+
+Tunnit
+•käyttäjä_id
+•päivämäärä
+•tunnit
+•tehtäväkuvaus/aihe/syy
+•laskutettava vai ei
