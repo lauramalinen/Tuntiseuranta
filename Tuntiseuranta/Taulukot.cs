@@ -57,7 +57,7 @@ namespace Tuntiseuranta
                         cmd.ExecuteNonQuery();
 
                         SqlCommand cmd2 = c.CreateCommand();
-                        cmd2.CommandText = $"create table tunnit (tehtavanro int identity(1,1) primary key, kayttaja_id int not null, pvm date not null, tunnit decimal(4,2) not null, tehtavakuvaus varchar(255), laskutettava int not null);";
+                        cmd2.CommandText = $"create table tunnit (tehtavanro int identity(1,1) primary key, kayttaja_id int not null, pvm int not null, tunnit decimal(4,2) not null, tehtavakuvaus varchar(255), laskutettava int not null);";
                         cmd2.ExecuteNonQuery();
 
                         SqlCommand c3 = c.CreateCommand();
