@@ -39,6 +39,17 @@ namespace Tuntiseuranta
                         c3.ExecuteNonQuery();
                     }
                 break;
+                case "B":
+                    using (SqlConnection c = new SqlConnection())
+                    {
+                        c.ConnectionString = "server=localhost;database=Tuntiseuranta;trusted_connection=true";
+                        c.Open();
+                        SqlCommand a1 = c.CreateCommand();
+                        a1.CommandText = $"ALTER TABLE Kayttaja ALTER COLUMN kayttaja_id int NOT NULL";
+                        SqlCommand a2 = c.CreateCommand();
+                        a2.CommandText = $"ALTER TABLE Tunnit ALTER COLUMN tehtavanro int NOT NULL";
+                    }
+                        break;
                 default:
                     Console.WriteLine("Epäkelpo valinta!");
                     PaivitaTaulukot();
