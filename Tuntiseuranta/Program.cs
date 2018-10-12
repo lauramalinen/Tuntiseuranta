@@ -46,7 +46,6 @@ namespace Tuntiseuranta
             default:
                 Console.WriteLine("Epäkelpo valinta! Kokeilehan uudelleen.");
             goto Start;
-
             }
             Console.ReadLine();
         }

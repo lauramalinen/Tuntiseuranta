@@ -30,7 +30,6 @@ namespace Tuntiseuranta
                     k1.CommandText = $"insert into Kayttaja values('{nimi}', '{osasto}', '{tehtavanimike}')";
 
                     k1.ExecuteNonQuery();
-
                 }
             }
             catch
