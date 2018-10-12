@@ -29,7 +29,6 @@ namespace Tuntiseuranta
 
                 k1.ExecuteNonQuery();
 
-
             }
         }
     }
