@@ -11,3 +11,8 @@ Tunnit
 •tunnit
 •tehtäväkuvaus/aihe/syy
 •laskutettava vai ei
+
+Luokat:
+LisaaKayttaja();
+LisaaTehtava();
+TarkasteleTunteja();
