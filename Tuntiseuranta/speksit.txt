@@ -13,6 +13,6 @@ Tunnit
 •laskutettava vai ei
 
 Luokat:
-LisaaKayttaja();
-LisaaTehtava();
-TarkasteleTunteja();
+Luokkaan Kayttaja.cs -> LisaaKayttaja();
+Luokkaan Tehtava.cs -> LisaaTehtava();
+Luokkaan Katsele.cs -> TarkasteleTunteja();
