@@ -30,10 +30,10 @@ namespace Tuntiseuranta
                     tehtava.LisaaTehtava();
                     break;
 
-                //case "C":
-                //    Katsele katsele = new Katsele();
-                //    katsele.TarkasteleTunteja();
-                //    break;
+                case "C":
+                    Katsele katsele = new Katsele();
+                    katsele.TarkasteleTunteja();
+                    break;
 
                 //default:
                 //    Console.WriteLine("Virheellinen valinta. Tee valinta uudelleen.");
