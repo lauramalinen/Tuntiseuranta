@@ -46,6 +46,7 @@
     <Compile Include="Kayttaja.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Taulukot.cs" />
     <Compile Include="Tehtava.cs" />
   </ItemGroup>
   <ItemGroup>

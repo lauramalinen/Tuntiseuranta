@@ -40,6 +40,8 @@ namespace Tuntiseuranta
 
             //    Kommentti
             //}
+
+            Console.ReadLine();
         }
     }
 }
