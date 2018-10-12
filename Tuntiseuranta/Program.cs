@@ -41,8 +41,8 @@ namespace Tuntiseuranta
 
                 case "TAULUKOT":
                 Taulukot taulukot = new Taulukot();
-            taulukot.PaivitaTaulukot();
-            break;
+                taulukot.PaivitaTaulukot();
+                break;
             default:
                 Console.WriteLine("Epäkelpo valinta! Kokeilehan uudelleen.");
             goto Start;
